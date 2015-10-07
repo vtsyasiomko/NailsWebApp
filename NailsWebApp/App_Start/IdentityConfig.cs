@@ -10,7 +10,8 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using NailsWebApp.Models;
+using NailsWebApp.Data.DAL;
+using NailsWebApp.Data.Models.Identity;
 
 namespace NailsWebApp
 {

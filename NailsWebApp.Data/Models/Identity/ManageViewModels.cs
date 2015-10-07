@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 
-namespace NailsWebApp.Models
+namespace NailsWebApp.Data.Models.Identity
 {
     public class IndexViewModel
     {

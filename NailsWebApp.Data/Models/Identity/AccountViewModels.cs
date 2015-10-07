@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace NailsWebApp.Models
+namespace NailsWebApp.Data.Models.Identity
 {
     public class ExternalLoginConfirmationViewModel
     {
