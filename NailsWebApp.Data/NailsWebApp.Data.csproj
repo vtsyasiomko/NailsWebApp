@@ -101,8 +101,19 @@
     <Compile Include="Common\IDbContext.cs" />
     <Compile Include="Common\IRepository.cs" />
     <Compile Include="Common\Repository.cs" />
+    <Compile Include="DAL\AppNailsDbContext.cs" />
     <Compile Include="DAL\NailsInitalizer.cs" />
     <Compile Include="DataModule.cs" />
+    <Compile Include="MigrationIdentity\201510081319000_Initial.cs" />
+    <Compile Include="MigrationIdentity\201510081319000_Initial.Designer.cs">
+      <DependentUpon>201510081319000_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MigrationIdentity\Configuration.cs" />
+    <Compile Include="MigrationNails\201510081320314_Initial.cs" />
+    <Compile Include="MigrationNails\201510081320314_Initial.Designer.cs">
+      <DependentUpon>201510081320314_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MigrationNails\Configuration.cs" />
     <Compile Include="Models\Identity\AccountViewModels.cs" />
     <Compile Include="Models\City.cs" />
     <Compile Include="Models\Country.cs" />
@@ -115,13 +126,24 @@
     <Compile Include="Models\Street.cs" />
     <Compile Include="Models\UserAddress.cs" />
     <Compile Include="Models\UserInfo.cs" />
+    <Compile Include="DAL\INailsDbContext.cs" />
+    <Compile Include="DAL\NailsDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="MigrationIdentity\201510081319000_Initial.resx">
+      <DependentUpon>201510081319000_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MigrationNails\201510081320314_Initial.resx">
+      <DependentUpon>201510081320314_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

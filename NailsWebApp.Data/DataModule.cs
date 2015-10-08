@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Autofac;
 using NailsWebApp.Data.Common;
 using NailsWebApp.Data.DAL;
+using NailsWebApp.Data.Nails;
 
 namespace NailsWebApp.Data
 {
@@ -20,6 +21,11 @@ namespace NailsWebApp.Data
 
         protected override void Load(ContainerBuilder builder)
         {
+
+            builder.Register(c => new NailsDbContext(_nailsNameOrConnection))
+                   .As<INailsDbContext>()
+                   .InstancePerRequest();
+
             builder.Register(c => new ApplicationDbContext(_nailsNameOrConnection))
                    .AsSelf()
                    .InstancePerRequest();

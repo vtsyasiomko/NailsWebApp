@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace NailsWebApp.Data.DAL
 {
-    public class NailsInitalizer : System.Data.Entity.CreateDatabaseIfNotExists<ApplicationDbContext>
+    public class NailsInitalizer : System.Data.Entity.CreateDatabaseIfNotExists<AppNailsDbContext>
     {
-        protected override void Seed(ApplicationDbContext context)
+        protected override void Seed(AppNailsDbContext context)
         {
 
         }

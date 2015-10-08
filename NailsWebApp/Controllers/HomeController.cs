@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using NailsWebApp.Data.DAL;
 
 namespace NailsWebApp.Controllers
 {
@@ -10,6 +11,12 @@ namespace NailsWebApp.Controllers
     {
         public ActionResult Index()
         {
+            var entity = new AppNailsDbContext();
+
+            var citys = entity.Citys.Where(c => c.CityName == "");
+
+            ViewBag.Citys = citys;
+
             return View();
         }
 
