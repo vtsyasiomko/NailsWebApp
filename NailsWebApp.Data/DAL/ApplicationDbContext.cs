@@ -1,4 +1,5 @@
-﻿using System.Data.Entity;
+﻿using System;
+using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using Microsoft.AspNet.Identity.EntityFramework;
 using NailsWebApp.Data.Models;
@@ -8,8 +9,8 @@ namespace NailsWebApp.Data.DAL
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+        public ApplicationDbContext(string connectionString)
+            : base(connectionString, throwIfV1Schema: false)
         {
         }
 
@@ -34,9 +35,9 @@ namespace NailsWebApp.Data.DAL
 
 
 
-        public static ApplicationDbContext Create()
+        public static ApplicationDbContext Create(string connectionString)
         {
-            return new ApplicationDbContext();
+            return new ApplicationDbContext(connectionString);
         }
     }
 }
