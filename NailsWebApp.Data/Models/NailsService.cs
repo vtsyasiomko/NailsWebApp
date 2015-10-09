@@ -16,9 +16,7 @@ namespace NailsApp.Data.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public DateTime Created { get; set; }
-        public ApplicationUser CreatedBy { get; set; }
         public DateTime? Updated { get; set; }
-        public ApplicationUser UpdatedBy { get; set; }
         public bool Active { get; set; }
 
         public virtual ICollection<NailsService> SubService { get; set; }

@@ -24,7 +24,7 @@ namespace NailsApp.Data.Models
         public string TweeterId { get; set; }
 
         public UserAddress Address { get; set; }
-        public ApplicationUser User { get; set; }
+        public Guid UserId { get; set; }
 
         public virtual ICollection<Phone> Phones { get; set; }
     }
