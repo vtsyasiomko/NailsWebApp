@@ -98,7 +98,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NailsWebApp\NailsApp.Web.csproj">
-      <Project>{63D4AD3F-6EE4-42F8-B8E0-503D58E21FA3}</Project>
+      <Project>{63d4ad3f-6ee4-42f8-b8e0-503d58e21fa3}</Project>
       <Name>NailsApp.Web</Name>
     </ProjectReference>
   </ItemGroup>
