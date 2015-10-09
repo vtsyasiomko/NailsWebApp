@@ -1,20 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Security.Claims;
+﻿using System.Security.Claims;
 using System.Threading.Tasks;
-using System.Web;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.DataProtection;
-using NailsWebApp.Data.DAL;
-using NailsWebApp.Data.Models.Identity;
+using NailsApp.Data.DAL;
+using NailsApp.Data.Models.Identity;
 
-namespace NailsWebApp
+namespace NailsApp.Web
 {
     public class EmailService : IIdentityMessageService
     {

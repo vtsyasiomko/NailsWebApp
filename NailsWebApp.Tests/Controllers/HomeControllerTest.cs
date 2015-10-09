@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NailsWebApp;
-using NailsWebApp.Controllers;
+using NailsApp.Web.Controllers;
+using NailsApp;
 
-namespace NailsWebApp.Tests.Controllers
+namespace NailsApp.Tests.Controllers
 {
     [TestClass]
     public class HomeControllerTest

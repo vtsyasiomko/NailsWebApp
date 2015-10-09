@@ -7,12 +7,13 @@ using Microsoft.AspNet.Identity;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.DataProtection;
-using NailsWebApp.Data.DAL;
-using NailsWebApp.Data.Models.Identity;
+using NailsApp.Web;
+using NailsApp.Data.DAL;
+using NailsApp.Data.Models.Identity;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(NailsWebApp.Startup))]
-namespace NailsWebApp
+[assembly: OwinStartup(typeof(Startup))]
+namespace NailsApp.Web
 {
     public partial class Startup
     {

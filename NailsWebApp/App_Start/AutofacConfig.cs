@@ -1,24 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Web;
+﻿using System.Configuration;
 using System.Web.Mvc;
 using Autofac;
 using Autofac.Integration.Mvc;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.EntityFramework;
-using Microsoft.AspNet.Identity.Owin;
-using Microsoft.Owin.Security;
-using Microsoft.Owin.Security.DataProtection;
-using NailsWebApp.Common.Modules;
-using NailsWebApp.Data;
-using NailsWebApp.Data.DAL;
-using NailsWebApp.Data.Models.Identity;
-using NailsWebApp.Services;
-using Owin;
+using NailsApp.Common.Modules;
+using NailsApp.Data;
+using NailsApp.Services;
 
-namespace NailsWebApp.App_Start
+namespace NailsApp.Web
 {
     public class AutofacConfig
     {

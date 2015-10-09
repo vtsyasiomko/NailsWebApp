@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Autofac;
 using Module = Autofac.Module;
 
-namespace NailsWebApp.Services
+namespace NailsApp.Services
 {
     public class ServiceModule : Module
     {

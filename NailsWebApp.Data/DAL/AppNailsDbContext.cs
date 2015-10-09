@@ -6,10 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity.EntityFramework;
-using NailsWebApp.Data.MigrationNails;
-using NailsWebApp.Data.Models;
+using NailsApp.Data.MigrationNails;
+using NailsApp.Data.Models;
 
-namespace NailsWebApp.Data.DAL
+namespace NailsApp.Data.DAL
 {
     public class AppNailsDbContext: DbContext
     {

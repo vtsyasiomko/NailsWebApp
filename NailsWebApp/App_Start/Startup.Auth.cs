@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Configuration;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
-using Microsoft.Owin.Security.Google;
-using NailsWebApp.Data.DAL;
-using NailsWebApp.Data.Models.Identity;
+using NailsApp.Data.Models.Identity;
 using Owin;
 
-namespace NailsWebApp
+namespace NailsApp.Web
 {
     public partial class Startup
     {

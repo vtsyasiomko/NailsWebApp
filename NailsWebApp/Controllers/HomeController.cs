@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Linq;
 using System.Web.Mvc;
-using NailsWebApp.Data.DAL;
+using NailsApp.Data.DAL;
 
-namespace NailsWebApp.Controllers
+namespace NailsApp.Web.Controllers
 {
     public class HomeController : Controller
     {

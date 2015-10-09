@@ -4,9 +4,9 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ApplicationUser = NailsWebApp.Data.Models.Identity.ApplicationUser;
+using ApplicationUser = NailsApp.Data.Models.Identity.ApplicationUser;
 
-namespace NailsWebApp.Data.Models
+namespace NailsApp.Data.Models
 {
     public class UserInfo
     {

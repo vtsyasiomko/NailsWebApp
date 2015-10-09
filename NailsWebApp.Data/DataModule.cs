@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Autofac;
-using NailsWebApp.Data.Common;
-using NailsWebApp.Data.DAL;
-using NailsWebApp.Data.Nails;
+using NailsApp.Data.Common;
+using NailsApp.Data.DAL;
+using NailsApp.Data.Nails;
 
-namespace NailsWebApp.Data
+namespace NailsApp.Data
 {
     public class DataModule : Module
     {

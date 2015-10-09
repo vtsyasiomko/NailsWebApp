@@ -7,8 +7,8 @@
     <ProjectGuid>{68B8EC2B-B7F2-4584-ACD1-B7572162993C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NailsWebApp.Data</RootNamespace>
-    <AssemblyName>NailsWebApp.Data</AssemblyName>
+    <RootNamespace>NailsApp.Data</RootNamespace>
+    <AssemblyName>NailsApp.Data</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

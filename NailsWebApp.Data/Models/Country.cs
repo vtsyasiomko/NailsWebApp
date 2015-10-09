@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NailsWebApp.Data.Models
+namespace NailsApp.Data.Models
 {
     public class Country
     {

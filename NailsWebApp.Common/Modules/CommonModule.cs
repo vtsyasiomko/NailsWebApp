@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Autofac;
-using NailsWebApp.Common.Mapping;
+using NailsApp.Common.Mapping;
 
-namespace NailsWebApp.Common.Modules
+namespace NailsApp.Common.Modules
 {
     public class CommonModule : Module
     {

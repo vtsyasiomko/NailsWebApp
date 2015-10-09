@@ -4,7 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace NailsWebApp.Data.Common
+namespace NailsApp.Data.Common
 {
     public interface IRepository<TEntity, TContext> : IDisposable
         where TEntity : class

@@ -2,11 +2,11 @@
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using Microsoft.AspNet.Identity.EntityFramework;
-using NailsWebApp.Data.MigrationIdentity;
-using NailsWebApp.Data.Models;
-using NailsWebApp.Data.Models.Identity;
+using NailsApp.Data.MigrationIdentity;
+using NailsApp.Data.Models;
+using NailsApp.Data.Models.Identity;
 
-namespace NailsWebApp.Data.DAL
+namespace NailsApp.Data.DAL
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

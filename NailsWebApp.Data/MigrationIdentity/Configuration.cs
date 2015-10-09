@@ -1,11 +1,11 @@
-namespace NailsWebApp.Data.MigrationIdentity
+namespace NailsApp.Data.MigrationIdentity
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<NailsWebApp.Data.DAL.ApplicationDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<NailsApp.Data.DAL.ApplicationDbContext>
     {
         public Configuration()
         {
@@ -13,7 +13,7 @@ namespace NailsWebApp.Data.MigrationIdentity
             MigrationsDirectory = @"MigrationIdentity";
         }
 
-        protected override void Seed(NailsWebApp.Data.DAL.ApplicationDbContext context)
+        protected override void Seed(NailsApp.Data.DAL.ApplicationDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

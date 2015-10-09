@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NailsWebApp.Data.DAL
+namespace NailsApp.Data.DAL
 {
     public class NailsInitalizer : System.Data.Entity.CreateDatabaseIfNotExists<AppNailsDbContext>
     {

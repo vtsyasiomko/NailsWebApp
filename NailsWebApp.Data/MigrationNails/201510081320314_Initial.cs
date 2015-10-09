@@ -1,4 +1,4 @@
-namespace NailsWebApp.Data.MigrationNails
+namespace NailsApp.Data.MigrationNails
 {
     using System;
     using System.Data.Entity.Migrations;

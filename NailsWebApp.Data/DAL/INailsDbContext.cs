@@ -1,6 +1,6 @@
-﻿using NailsWebApp.Data.Common;
+﻿using NailsApp.Data.Common;
 
-namespace NailsWebApp.Data.Nails
+namespace NailsApp.Data.Nails
 {
     public interface INailsDbContext: IDbContext
     {

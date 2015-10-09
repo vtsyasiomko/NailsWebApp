@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 
-namespace NailsWebApp.Common.Extensions
+namespace NailsApp.Common.Extensions
 {
     public static class AutoMapperExtensions
     {

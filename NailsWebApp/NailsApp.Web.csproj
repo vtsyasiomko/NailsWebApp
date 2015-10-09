@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NailsWebApp</RootNamespace>
-    <AssemblyName>NailsWebApp</AssemblyName>
+    <RootNamespace>NailsApp.Web</RootNamespace>
+    <AssemblyName>NailsApp.Web</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -285,26 +285,29 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NailsWebApp.Common\NailsWebApp.Common.csproj">
+    <ProjectReference Include="..\NailsWebApp.Common\NailsApp.Common.csproj">
       <Project>{c59dc2d6-12a2-46e3-affb-838c4f4098bd}</Project>
-      <Name>NailsWebApp.Common</Name>
+      <Name>NailsApp.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NailsWebApp.Data\NailsWebApp.Data.csproj">
+    <ProjectReference Include="..\NailsWebApp.Data\NailsApp.Data.csproj">
       <Project>{68b8ec2b-b7f2-4584-acd1-b7572162993c}</Project>
-      <Name>NailsWebApp.Data</Name>
+      <Name>NailsApp.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NailsWebApp.DTO\NailsWebApp.DTO.csproj">
+    <ProjectReference Include="..\NailsWebApp.DTO\NailsApp.DTO.csproj">
       <Project>{5d30bf66-914c-4117-b9a4-1a48c068dc27}</Project>
-      <Name>NailsWebApp.DTO</Name>
+      <Name>NailsApp.DTO</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NailsWebApp.Services\NailsWebApp.Services.csproj">
+    <ProjectReference Include="..\NailsWebApp.Services\NailsApp.Services.csproj">
       <Project>{f0e64f5a-0649-4037-af50-3b7074fd79fc}</Project>
-      <Name>NailsWebApp.Services</Name>
+      <Name>NailsApp.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />

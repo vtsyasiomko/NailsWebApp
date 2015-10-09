@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NailsWebApp.Services
+namespace NailsApp.Services
 {
     public static class AutoMapperConfig
     {

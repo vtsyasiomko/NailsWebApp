@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace NailsWebApp.Common.Mapping
+namespace NailsApp.Common.Mapping
 {
     public interface IMappingService
     {

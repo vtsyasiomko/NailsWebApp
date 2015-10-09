@@ -4,10 +4,10 @@ using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using NailsWebApp.Data.Common;
-using NailsWebApp.Data.DAL;
+using NailsApp.Data.Common;
+using NailsApp.Data.DAL;
 
-namespace NailsWebApp.Data.Nails
+namespace NailsApp.Data.Nails
 {
     public class NailsDbContext : GenericPortalContext, INailsDbContext
     {

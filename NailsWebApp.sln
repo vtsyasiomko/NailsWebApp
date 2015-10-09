@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NailsWebApp", "NailsWebApp\NailsWebApp.csproj", "{63D4AD3F-6EE4-42F8-B8E0-503D58E21FA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NailsApp.Web", "NailsWebApp\NailsApp.Web.csproj", "{63D4AD3F-6EE4-42F8-B8E0-503D58E21FA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NailsWebApp.Tests", "NailsWebApp.Tests\NailsWebApp.Tests.csproj", "{9538B603-5BF7-4E55-ABF1-38C3208E0F69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NailsApp.Tests", "NailsWebApp.Tests\NailsApp.Tests.csproj", "{9538B603-5BF7-4E55-ABF1-38C3208E0F69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NailsWebApp.Data", "NailsWebApp.Data\NailsWebApp.Data.csproj", "{68B8EC2B-B7F2-4584-ACD1-B7572162993C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NailsApp.Data", "NailsWebApp.Data\NailsApp.Data.csproj", "{68B8EC2B-B7F2-4584-ACD1-B7572162993C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NailsWebApp.Services", "NailsWebApp.Services\NailsWebApp.Services.csproj", "{F0E64F5A-0649-4037-AF50-3B7074FD79FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NailsApp.Services", "NailsWebApp.Services\NailsApp.Services.csproj", "{F0E64F5A-0649-4037-AF50-3B7074FD79FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NailsWebApp.DTO", "NailsWebApp.DTO\NailsWebApp.DTO.csproj", "{5D30BF66-914C-4117-B9A4-1A48C068DC27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NailsApp.DTO", "NailsWebApp.DTO\NailsApp.DTO.csproj", "{5D30BF66-914C-4117-B9A4-1A48C068DC27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NailsWebApp.Common", "NailsWebApp.Common\NailsWebApp.Common.csproj", "{C59DC2D6-12A2-46E3-AFFB-838C4F4098BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NailsApp.Common", "NailsWebApp.Common\NailsApp.Common.csproj", "{C59DC2D6-12A2-46E3-AFFB-838C4F4098BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

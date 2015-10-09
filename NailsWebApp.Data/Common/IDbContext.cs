@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Threading.Tasks;
 
-namespace NailsWebApp.Data.Common
+namespace NailsApp.Data.Common
 {
     public interface IDbContext : IDisposable
     {

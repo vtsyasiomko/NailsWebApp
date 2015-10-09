@@ -9,8 +9,8 @@
     <ProjectGuid>{9538B603-5BF7-4E55-ABF1-38C3208E0F69}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NailsWebApp.Tests</RootNamespace>
-    <AssemblyName>NailsWebApp.Tests</AssemblyName>
+    <RootNamespace>NailsApp.Tests</RootNamespace>
+    <AssemblyName>NailsApp.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -97,9 +97,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NailsWebApp\NailsWebApp.csproj">
+    <ProjectReference Include="..\NailsWebApp\NailsApp.Web.csproj">
       <Project>{63D4AD3F-6EE4-42F8-B8E0-503D58E21FA3}</Project>
-      <Name>NailsWebApp</Name>
+      <Name>NailsApp.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

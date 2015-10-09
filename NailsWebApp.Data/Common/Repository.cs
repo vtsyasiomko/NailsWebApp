@@ -7,7 +7,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NailsWebApp.Data.Common
+namespace NailsApp.Data.Common
 {
     public class Repository<TEntity, TContext> : IRepository<TEntity, TContext>
         where TEntity : class

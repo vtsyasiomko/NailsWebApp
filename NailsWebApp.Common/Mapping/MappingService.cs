@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
 
-namespace NailsWebApp.Common.Mapping
+namespace NailsApp.Common.Mapping
 {
     public class MappingService : IMappingService
     {

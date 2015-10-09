@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Serialization;
 
-namespace NailsWebApp.App_Start
+namespace NailsApp.Web
 {
     public static class JsonFormatterConfig
     {
